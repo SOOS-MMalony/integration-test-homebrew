@@ -6,7 +6,7 @@
         "bottle": false
       },
       "exiv2": {
-        "version": "0.27.1",
+        "version": "0.27.5",
         "bottle": {
           "cellar": ":any",
           "prefix": "/usr/local",
@@ -76,6 +76,31 @@
             "sierra": {
               "url": "https://homebrew.bintray.com/bottles/zeromq-4.3.4.sierra.bottle.tar.gz",
               "sha256": "8DE4E3C5ED04050F97CA95D9BD7EC907C059EF721997DED79F18D6CB250A11BC"
+            }
+          }
+        }
+      },
+	  "mruby": {
+        "version": "3.0.0",
+        "bottle": {
+          "cellar": ":any",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/mruby-3.0.0.catalina.bottle.tar.gz",
+              "sha256": "278CBC1EAAA73447068EABCCC547FF7DF582C783F2E0B04B13FD4BA91BB530AB"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/mruby-3.0.0.mojave.bottle.tar.gz",
+              "sha256": "1DF4EBDA8133A2E9D232655DE6261A7E3D96E1930A01AEEFD0E4F1D0B4550F63"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/mruby-3.0.0.high_sierra.bottle.tar.gz",
+              "sha256": "B016E22E58DF8550C524DC481DFAA0916F98429FC55BE58E5E2A8635B2FBA397"
+            },
+            "sierra": {
+              "url": "https://homebrew.bintray.com/bottles/mruby-3.0.0.sierra.bottle.tar.gz",
+              "sha256": "B33EE1E1424D7644722E74556DDEAC47CF6B93499F3DA4D9D304F472A0110101"
             }
           }
         }

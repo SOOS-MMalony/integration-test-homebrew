@@ -8,7 +8,7 @@ cask_args appdir: "~/Applications", require_sha: true
 brew "zeromq"
 brew "exiv2"
 brew "quill"
-brew "mruby"
+brew "thrift"
 
 # 'brew install --cask'
 cask "google-chrome"
